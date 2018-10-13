@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.timer,
+.message {
+  background-color: black;
+  border-radius: 4px;
+  padding: 2rem;
+  height: 500px;
+}
+
+.timer__header,
+.message__text {
+  text-align: center;
+  color: white;
+}
+.timer__sub {
+  padding: 1rem;
+  color: goldenrod;
+}
+.timer__body {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.timer__day,
+.timer__hour,
+.timer__min,
+.timer__sec {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  border: 2px dotted white;
+  border-radius: 50%;
+}
+
+.timer__label {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
+}
